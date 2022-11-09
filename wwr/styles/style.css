@@ -122,7 +122,6 @@ h2 {
     justify-self: center;
     align-self: center;
 }
-
 .book, .join {
     background-color: #3febca;
     color: #397367;
@@ -212,6 +211,62 @@ h2 {
     grid-column: 8/10;
     grid-row: 2/3;
 }
+
+/* ------------- Second Page -------------- */
+
+h1 {
+    color: #fff07c;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: Calligraffitti, Papyrus, "Trebuchet MS";
+    text-align: center;
+}
+ul {
+    font-size: 18px;
+    font-family: "Source Code Pro", Monaco, Verdana;
+}
+.collapsible {
+    background-color: #8093f1;
+    color: #fff07c;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    font-family: "Source Code Pro", Monaco, Verdana;
+}
+.active, .collapsible:hover {
+    background-color: #3febca;
+    color: #397367;
+    font-weight: bold;
+}
+.content {
+    padding: 0 18px;
+    font-size: 10px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;    background-color: aliceblue;
+}
+.collapsible:after {
+    content: "\02795";
+    font-size: 15px;
+    color: black;
+    float: right;
+    margin-left: 8px;
+}
+.active:after {
+    content: "\2796";
+}
+#italics {
+    font-size: 9px;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
