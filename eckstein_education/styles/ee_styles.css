@@ -144,6 +144,17 @@ nav a:hover {
     overflow: visible;
     background-color: #214e34;
 }
+.modal img {
+    float: left;
+    max-width: 512px;
+}
+.modal #modal_paragraph {
+    float: right;
+    max-width: 275px;
+    margin-top: 80px;
+    text-align: left;
+    background-color: #183059;
+}
 .modal-content {
     display: flex;
     margin: auto;
@@ -151,7 +162,7 @@ nav a:hover {
     position: relative;
     padding: 0;
     outline: 0;
-    width: 800px;
+    width: 900px;
     height: 100%;
     max-height: 100%;
 }
