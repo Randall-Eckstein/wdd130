@@ -148,7 +148,7 @@ nav a:hover {
     float: left;
     max-width: 512px;
 }
-.modal #modal_paragraph {
+.modal .modal_paragraph {
     float: right;
     max-width: 275px;
     margin-top: 80px;
