@@ -86,10 +86,14 @@ nav a:hover {
     padding-right: 20px;
     padding-top: 30px;
     display: grid;
-    grid-template-columns: 450px auto;
+    grid-template-columns: 1fr 1fr;
+}
+.about_me img {
+    width: fit-content;
+    border: 2px solid #fd7014
 }
 .about_me div {
-    width: 600px;
+    width: auto;
     font-family: Varta, Tahoma, sans-serif;
     color: #98c1d9;
     font-size: 1em;
