@@ -120,6 +120,8 @@ nav a:hover {
 }
 .showcase {
     width: 400px;
+    padding: 5px;
+    border: 2px solid #fd7014;
 }
 .full-image {
     padding: 20px;
@@ -199,4 +201,6 @@ nav a:hover {
 }
 .modal_container h2 {
     font-family: "EB Garamond", 'Times New Roman', serif;
+    font-size: 2.2em;
+    margin: 10px
 }
